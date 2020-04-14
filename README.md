@@ -7,6 +7,6 @@ Apm data is in json file format, you have to index manually :
 ```apm-server setup --template```
 
 3. install logstash (see oss version in https://www.elastic.co/fr/downloads/past-releases)
-4. setup a pipeline (see https://github.com/leadwire-apm/apm-dataset-for-ad/blob/master/specjweb2018/logstash-pipeline.conf)
+4. configure a logstash pipeline (see https://github.com/leadwire-apm/apm-dataset-for-ad/blob/master/specjweb2018/logstash-pipeline.conf)
 5. start logstash
 
